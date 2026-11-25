@@ -1,0 +1,5 @@
+### Root Cause Diagnosis (Fallback):
+The RCA Engine successfully retrieved the failed logs and extracted the context using DevOps-RoBERTa and GraphRAG. 
+However, the Google Gemini LLM API is currently experiencing a `503 UNAVAILABLE` error due to high demand. 
+
+The AI was unable to generate a specific code patch for this repository at this time. Please try re-running the pipeline job in GitHub Actions once the API stabilizes.
